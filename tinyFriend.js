@@ -1,7 +1,7 @@
 
 function tinyFriend(names){
 
-    var min =names[0];
+   var min=names[0];
 
     for (i=0; i<names.length; i++){
   
@@ -15,12 +15,13 @@ function tinyFriend(names){
        
     }
 
+  
     return min;
-   
 }
 
-var names =(["rashed","minto","jahed","sohel"]);
 
-var result=tinyFriend()
+var tinynames = tinyFriend(["rashed","minto","jahed","sohel"]);
 
-console.log(names.length);
+
+
+console.log(tinynames);
